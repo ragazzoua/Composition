@@ -25,6 +25,10 @@ public class Bedroom {
         this.lamp = lamp;
     }
 
+    public void turnOnLamp(){
+        lamp.turnOn();
+    }
+
     public Lamp getLamp() {
         return lamp;
     }
